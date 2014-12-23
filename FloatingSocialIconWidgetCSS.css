@@ -1,0 +1,97 @@
+#FloatingSocialLinks {
+    position: fixed; 
+    left: 0; 
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;  
+    top: 30%;
+}
+#FloatingSocialLinks .floatingsociallink {
+    height: 32px; 
+    width: 32px; 
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; 
+/*  float: left;  */
+    background-repeat: no-repeat; 
+    background-position: center right; 
+}
+#FloatingSocialLinks .floatingsociallink:hover {
+    width: 52px;
+}
+#FloatingSocialLinks .instagram {
+    background-color: #cd5959; 
+    background-image: url('/images/instagram.png')
+}
+#FloatingSocialLinks .facebook {
+    background-color: #3b5998; 
+    background-image: url('/images/facebook.png')
+}
+#FloatingSocialLinks .pintrest {
+    background-color: #cb211d; 
+    background-image: url('/images/pinterest.png')
+}
+#FloatingSocialLinks .youtube {
+    background-color: #c02b29; 
+    background-image: url('/images/youtube.png')
+}
+#FloatingSocialLinks .googleplus {
+    background-color: #dd4b39; 
+    background-image: url('/images/googleplus.png')
+}
+#FloatingSocialLinks .twitter {
+    background-color: #56a3d9; 
+    background-image: url('/images/twitter.png')
+}
+ 
+#FloatingSocialLinks .inner-floatingsociallink {
+    width: 100%; 
+    height: 100%; 
+}
+
+
+
+
+/*    OR    */
+
+
+
+
+#FloatingSocialLinks.wg {
+    left: inherit; 
+    right: 0; 
+    color: white; 
+}
+#FloatingSocialLinks.wg .floatingsociallink {
+    float: right; 
+    clear: right; 
+    background-position-x: left; 
+    background-image: none; 
+    font-family: genericons;
+    line-height: 32px;
+    font-size: 22px;
+    text-align: center;
+}
+#FloatingSocialLinks.wg .instagram:before {
+    content: '\f215'; 
+}
+#FloatingSocialLinks.wg .facebook:before {
+    content: '\f204'; 
+}
+#FloatingSocialLinks.wg .pintrest:before {
+    content: '\f209'; 
+}
+#FloatingSocialLinks.wg .youtube:before {
+    content: '\f213'; 
+}
+#FloatingSocialLinks.wg .googleplus:before {
+    content: '\f218'; 
+}
+#FloatingSocialLinks.wg .twitter:before {
+    content: '\f202'; 
+}
+#FloatingSocialLinks.wg .linkedin:before {
+    content: '\f207'; 
+}
+
+
